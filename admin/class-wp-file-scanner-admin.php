@@ -112,8 +112,8 @@ class Wp_File_Scanner_Admin {
 	 */
 	public function register_admin_menu() {
 		add_menu_page(
-			__( 'File Scan', 'wp-file-scanner' ),
-			__( 'File Scan', 'wp-file-scanner' ),
+			__( 'File Scan', 'file-scanner' ),
+			__( 'File Scan', 'file-scanner' ),
 			'manage_options',
 			'file-scan',
 			array( $this, 'display_admin_page' ),

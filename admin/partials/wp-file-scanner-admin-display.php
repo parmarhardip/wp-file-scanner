@@ -36,18 +36,18 @@ $pagination      = paginate_links(
     <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
     <form method="post">
 		<?php wp_nonce_field( 'scan_action', 'scan_nonce' ); ?>
-        <p><input type="submit" name="scan_now" class="button button-primary" value="<?php esc_attr_e( 'Scan Now', 'wp-file-scanner' ); ?>" /></p>
+        <p><input type="submit" name="scan_now" class="button button-primary" value="<?php esc_attr_e( 'Scan Now', 'file-scanner' ); ?>" /></p>
     </form>
     <table class="wp-list-table widefat fixed striped table-view-list">
         <thead>
         <tr>
-            <th><?php esc_html_e('Type', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Size', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Nodes', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Path', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Name', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Extension', 'wp-file-scanner'); ?></th>
-            <th><?php esc_html_e('Permissions', 'wp-file-scanner'); ?></th>
+            <th><?php esc_html_e('Type', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Size', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Nodes', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Path', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Name', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Extension', 'file-scanner'); ?></th>
+            <th><?php esc_html_e('Permissions', 'file-scanner'); ?></th>
         </tr>
         </thead>
         <tbody>
@@ -56,7 +56,7 @@ $pagination      = paginate_links(
             <tr>
                 <td colspan="7">
                     <?php
-                    esc_html_e('No files or directories found.', 'wp-file-scanner');
+                    esc_html_e('No files or directories found.', 'file-scanner');
                     ?>
                 </td>
             </tr>

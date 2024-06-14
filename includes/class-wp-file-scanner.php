@@ -72,7 +72,7 @@ class Wp_File_Scanner {
 		} else {
 			$this->version = '1.0.0';
 		}
-		$this->plugin_name = 'wp-file-scanner';
+		$this->plugin_name = 'file-scanner';
 
 		$this->load_dependencies();
 		$this->set_locale();

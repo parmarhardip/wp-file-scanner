@@ -10,10 +10,10 @@
  *
  * @link              https://https://example.com
  * @since             1.0.0
- * @package           Wp_File_Scanner
+ * @package           File_Scanner
  *
  * @wordpress-plugin
- * Plugin Name:       WP File Scanner
+ * Plugin Name:       File Scanner
  * Plugin URI:        https://https://example.com
  * Description:       Scans the root of the WordPress installation and lists the files and directories on a custom admin page.
 
@@ -22,7 +22,7 @@
  * Author URI:        https://https://example.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       wp-file-scanner
+ * Text Domain:       file-scanner
  * Domain Path:       /languages
  */
 
